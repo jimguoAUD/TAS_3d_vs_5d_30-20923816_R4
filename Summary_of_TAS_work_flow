@@ -1,0 +1,8 @@
+The paired end fastq reads were processed to generate umi-assisted consensus sequence by using a published package MT-Toolbox (google site page:https://sites.google.com/site/moleculetagtoolbox/home).
+
+The specific steps MT-Toolbox take are:
+1. merge each paired reads using FLASH pacakge (Github page: https://github.com/genome-vendor/FLASH)
+2. group merged reads by their umis
+3. generate consensus sequence for each umi group using MUSCLE or CLUSTALW alignment algorithm
+
+The consensus sqequence (fastq format) was then fed into the TAS_error_rate.py script to generate a per-base error rate plot and a table of per-base error rate.
