@@ -1,0 +1,10 @@
+<opt bin_sample_exec="bin_sample.pl" con_algo="NoMSA" diginorm_max="NA" fwd_linker="" fwd_max_shifts="0" fwd_mer_len="8" fwd_primer="GCAGGAGCCACACAAAG" keep_tmp_files="Y" min_con_depth="3" output_root="/home/dnanexus/MT-toolbox_data/G03" parallelize="N" rev_linker="" rev_max_shifts="0" rev_mer_len="8" rev_primer="GGTCTCTAGGCAGGAAGGGA" seq_type="2" split_samples_root_dir="">
+    <flash_params M="100" f="250" m="10" p="33" r="150" s="25" x="0.25" />
+    <qc_params SRC_allow_ambig="N" SRC_allow_gaps="N" SRC_min_avg_qual="0" SRC_min_len="1" SRC_trim_to_base="NA" con_allow_ambig="N" con_min_avg_qual="0" con_min_c_score="0" con_min_len="1" con_trim_to_base="NA" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/3day-G03-F_R1.fastq" rev_file="home/dnanexus/fastq_file/3day-G03-F_R2.fastq" sample_id="3day-G03-F" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/5day-G03-F_R1.fastq" rev_file="home/dnanexus/fastq_file/5day-G03-F_R2.fastq" sample_id="5day-G03-F" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/plasmid-G03-F_R1.fastq" rev_file="home/dnanexus/fastq_file/plasmid-G03-F_R2.fastq" sample_id="plasmid-G03-F" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/3day-G03-R_R1.fastq" rev_file="home/dnanexus/fastq_file/3day-G03-R_R2.fastq" sample_id="3day-G03-R" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/5day-G03-R_R1.fastq" rev_file="home/dnanexus/fastq_file/5day-G03-R_R2.fastq" sample_id="5day-G03-R" />
+    <sample barcode="" fwd_file="home/dnanexus/fastq_file/plasmid-G03-R_R1.fastq" rev_file="home/dnanexus/fastq_file/plasmid-G03-R_R2.fastq" sample_id="plasmid-G03-R" />
+</opt>
